@@ -1,0 +1,44 @@
+* {
+    padding:0;
+    margin:0;
+}
+
+header {
+    padding: 30px;
+    background:green;
+}
+center {
+    padding-top:10px;
+}
+
+img {
+    width: 70%;
+    transition:ease-in-out;
+    animation-duration: 10ms;
+    
+}
+img:hover {
+    transform:scale(1.1);
+}
+
+.mid-content {
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 70px;
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-row-gap:30px;
+    grid-column-gap:10px;
+    overflow: hidden;
+}
+
+
+footer {
+    padding: 30px;
+    background:green;
+}
+@media screen  and (max-width: 450px){
+    .mid-content {
+        display:block;
+    }
+}
